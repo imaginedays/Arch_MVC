@@ -7,8 +7,11 @@
 //
 
 #import "FirstViewController.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
-@interface FirstViewController ()
+@interface FirstViewController ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *entry;
+@property (weak, nonatomic) IBOutlet UILabel *content;
 
 @end
 
@@ -16,8 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
-
 
 @end

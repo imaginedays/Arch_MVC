@@ -14,9 +14,12 @@
 		76235B312199917300F77104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76235B302199917300F77104 /* Assets.xcassets */; };
 		76235B342199917300F77104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76235B322199917300F77104 /* LaunchScreen.storyboard */; };
 		76235B372199917300F77104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B362199917300F77104 /* main.m */; };
+		D112E6686F74CCD90E48B070 /* libPods-Arch_MVVM_RAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 701867489970B239F24615EE /* libPods-Arch_MVVM_RAC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FAADFA38D528228CFCDDD9C /* Pods-Arch_MVVM_RAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arch_MVVM_RAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arch_MVVM_RAC/Pods-Arch_MVVM_RAC.release.xcconfig"; sourceTree = "<group>"; };
+		701867489970B239F24615EE /* libPods-Arch_MVVM_RAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arch_MVVM_RAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76235B212199917100F77104 /* Arch_MVVM_RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arch_MVVM_RAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76235B242199917100F77104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76235B252199917100F77104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		76235B332199917300F77104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76235B352199917300F77104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76235B362199917300F77104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0DD7126738E903FC85F170A /* Pods-Arch_MVVM_RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arch_MVVM_RAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arch_MVVM_RAC/Pods-Arch_MVVM_RAC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D112E6686F74CCD90E48B070 /* libPods-Arch_MVVM_RAC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +52,8 @@
 			children = (
 				76235B232199917100F77104 /* Arch_MVVM_RAC */,
 				76235B222199917100F77104 /* Products */,
+				A817AED8FA90B32E596077F3 /* Pods */,
+				DF056CCCB358CF001A3B9A29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +83,23 @@
 			path = Arch_MVVM_RAC;
 			sourceTree = "<group>";
 		};
+		A817AED8FA90B32E596077F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD7126738E903FC85F170A /* Pods-Arch_MVVM_RAC.debug.xcconfig */,
+				3FAADFA38D528228CFCDDD9C /* Pods-Arch_MVVM_RAC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF056CCCB358CF001A3B9A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				701867489970B239F24615EE /* libPods-Arch_MVVM_RAC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76235B3A2199917300F77104 /* Build configuration list for PBXNativeTarget "Arch_MVVM_RAC" */;
 			buildPhases = (
+				AFD0FABF91F0471D8A1AF763 /* [CP] Check Pods Manifest.lock */,
 				76235B1D2199917100F77104 /* Sources */,
 				76235B1E2199917100F77104 /* Frameworks */,
 				76235B1F2199917100F77104 /* Resources */,
@@ -140,6 +165,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFD0FABF91F0471D8A1AF763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arch_MVVM_RAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76235B1D2199917100F77104 /* Sources */ = {
@@ -289,9 +335,11 @@
 		};
 		76235B3B2199917300F77104 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DD7126738E903FC85F170A /* Pods-Arch_MVVM_RAC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 693F536PET;
 				INFOPLIST_FILE = Arch_MVVM_RAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,9 +353,11 @@
 		};
 		76235B3C2199917300F77104 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAADFA38D528228CFCDDD9C /* Pods-Arch_MVVM_RAC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 693F536PET;
 				INFOPLIST_FILE = Arch_MVVM_RAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
