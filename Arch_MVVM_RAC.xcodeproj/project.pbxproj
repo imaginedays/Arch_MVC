@@ -14,6 +14,8 @@
 		76235B312199917300F77104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76235B302199917300F77104 /* Assets.xcassets */; };
 		76235B342199917300F77104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76235B322199917300F77104 /* LaunchScreen.storyboard */; };
 		76235B372199917300F77104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B362199917300F77104 /* main.m */; };
+		767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 767E5F3B219C29F800AD22DC /* RWViewModel.m */; };
+		767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767E5F3F219C2BB300AD22DC /* RWViewController.m */; };
 		D112E6686F74CCD90E48B070 /* libPods-Arch_MVVM_RAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 701867489970B239F24615EE /* libPods-Arch_MVVM_RAC.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,10 @@
 		76235B332199917300F77104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76235B352199917300F77104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76235B362199917300F77104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		767E5F3A219C29F800AD22DC /* RWViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewModel.h; sourceTree = "<group>"; };
+		767E5F3B219C29F800AD22DC /* RWViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewModel.m; sourceTree = "<group>"; };
+		767E5F3E219C2BB300AD22DC /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
+		767E5F3F219C2BB300AD22DC /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
 		B0DD7126738E903FC85F170A /* Pods-Arch_MVVM_RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arch_MVVM_RAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arch_MVVM_RAC/Pods-Arch_MVVM_RAC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +74,7 @@
 		76235B232199917100F77104 /* Arch_MVVM_RAC */ = {
 			isa = PBXGroup;
 			children = (
+				767E5F33219C23B800AD22DC /* MVVM_RAC_CORE */,
 				76235B242199917100F77104 /* AppDelegate.h */,
 				76235B252199917100F77104 /* AppDelegate.m */,
 				76235B272199917100F77104 /* FirstViewController.h */,
@@ -81,6 +88,33 @@
 				76235B362199917300F77104 /* main.m */,
 			);
 			path = Arch_MVVM_RAC;
+			sourceTree = "<group>";
+		};
+		767E5F33219C23B800AD22DC /* MVVM_RAC_CORE */ = {
+			isa = PBXGroup;
+			children = (
+				767E5F3D219C2B8F00AD22DC /* ViewController */,
+				767E5F39219C29CF00AD22DC /* ViewModel */,
+			);
+			path = MVVM_RAC_CORE;
+			sourceTree = "<group>";
+		};
+		767E5F39219C29CF00AD22DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				767E5F3A219C29F800AD22DC /* RWViewModel.h */,
+				767E5F3B219C29F800AD22DC /* RWViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		767E5F3D219C2B8F00AD22DC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				767E5F3E219C2BB300AD22DC /* RWViewController.h */,
+				767E5F3F219C2BB300AD22DC /* RWViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		A817AED8FA90B32E596077F3 /* Pods */ = {
@@ -192,6 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */,
+				767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */,
 				76235B2C2199917100F77104 /* SecondViewController.m in Sources */,
 				76235B262199917100F77104 /* AppDelegate.m in Sources */,
 				76235B372199917300F77104 /* main.m in Sources */,
