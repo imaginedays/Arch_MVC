@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7600E50C219D26CE0056355C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7600E50A219D26CE0056355C /* LoginViewController.m */; };
+		7600E50D219D26CE0056355C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7600E50B219D26CE0056355C /* LoginViewController.xib */; };
+		7600E511219D4D890056355C /* RWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7600E510219D4D890056355C /* RWNavigationController.m */; };
 		76235B262199917100F77104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B252199917100F77104 /* AppDelegate.m */; };
 		76235B292199917100F77104 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B282199917100F77104 /* FirstViewController.m */; };
 		76235B2C2199917100F77104 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B2B2199917100F77104 /* SecondViewController.m */; };
@@ -22,6 +25,11 @@
 /* Begin PBXFileReference section */
 		3FAADFA38D528228CFCDDD9C /* Pods-Arch_MVVM_RAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arch_MVVM_RAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arch_MVVM_RAC/Pods-Arch_MVVM_RAC.release.xcconfig"; sourceTree = "<group>"; };
 		701867489970B239F24615EE /* libPods-Arch_MVVM_RAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arch_MVVM_RAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7600E509219D26CE0056355C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7600E50A219D26CE0056355C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7600E50B219D26CE0056355C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		7600E50F219D4D890056355C /* RWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWNavigationController.h; sourceTree = "<group>"; };
+		7600E510219D4D890056355C /* RWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWNavigationController.m; sourceTree = "<group>"; };
 		76235B212199917100F77104 /* Arch_MVVM_RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arch_MVVM_RAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76235B242199917100F77104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76235B252199917100F77104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +61,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7600E507219D267A0056355C /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				7600E508219D26AB0056355C /* Login */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		7600E508219D26AB0056355C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7600E509219D26CE0056355C /* LoginViewController.h */,
+				7600E50A219D26CE0056355C /* LoginViewController.m */,
+				7600E50B219D26CE0056355C /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7600E50E219D4D240056355C /* BaseUIKitWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				7600E50F219D4D890056355C /* RWNavigationController.h */,
+				7600E510219D4D890056355C /* RWNavigationController.m */,
+			);
+			path = BaseUIKitWrapper;
+			sourceTree = "<group>";
+		};
 		76235B182199917100F77104 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +109,7 @@
 		76235B232199917100F77104 /* Arch_MVVM_RAC */ = {
 			isa = PBXGroup;
 			children = (
+				7600E507219D267A0056355C /* Business */,
 				767E5F33219C23B800AD22DC /* MVVM_RAC_CORE */,
 				76235B242199917100F77104 /* AppDelegate.h */,
 				76235B252199917100F77104 /* AppDelegate.m */,
@@ -93,6 +129,7 @@
 		767E5F33219C23B800AD22DC /* MVVM_RAC_CORE */ = {
 			isa = PBXGroup;
 			children = (
+				7600E50E219D4D240056355C /* BaseUIKitWrapper */,
 				767E5F3D219C2B8F00AD22DC /* ViewController */,
 				767E5F39219C29CF00AD22DC /* ViewModel */,
 			);
@@ -192,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7600E50D219D26CE0056355C /* LoginViewController.xib in Resources */,
 				76235B342199917300F77104 /* LaunchScreen.storyboard in Resources */,
 				76235B312199917300F77104 /* Assets.xcassets in Resources */,
 				76235B2F2199917100F77104 /* Main.storyboard in Resources */,
@@ -226,10 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7600E511219D4D890056355C /* RWNavigationController.m in Sources */,
 				767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */,
 				767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */,
 				76235B2C2199917100F77104 /* SecondViewController.m in Sources */,
 				76235B262199917100F77104 /* AppDelegate.m in Sources */,
+				7600E50C219D26CE0056355C /* LoginViewController.m in Sources */,
 				76235B372199917300F77104 /* main.m in Sources */,
 				76235B292199917100F77104 /* FirstViewController.m in Sources */,
 			);

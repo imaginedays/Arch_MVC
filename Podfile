@@ -7,5 +7,6 @@ target 'Arch_MVVM_RAC' do
 
   # Pods for Arch_MVVM_RAC
   pod 'ReactiveObjC'
+  pod 'AFNetworking'
 
 end
