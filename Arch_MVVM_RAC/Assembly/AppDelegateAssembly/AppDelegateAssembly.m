@@ -9,6 +9,7 @@
 #import "AppDelegateAssembly.h"
 #import "LoginViewController.h"
 #import "LoginViewModel.h"
+#import "AppDelegate.h"
 
 @implementation AppDelegateAssembly
 

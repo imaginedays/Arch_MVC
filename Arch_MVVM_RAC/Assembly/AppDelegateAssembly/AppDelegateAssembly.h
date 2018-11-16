@@ -7,7 +7,7 @@
 //
 
 #import "TyphoonAssembly.h"
-@class LoginViewController;
+@class LoginViewController,AppDelegate;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AppDelegateAssembly : TyphoonAssembly

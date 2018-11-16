@@ -20,11 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     AppDelegateAssembly *assembly = [[AppDelegateAssembly new]activated];
-    // Override point for customization after application launch.
-//    LoginViewModel *viewModel = [[LoginViewModel alloc]init];
-    LoginViewController *loginViewController = [assembly createLoginViewController];//[[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:nil];
-//    loginViewController.viewModel = viewModel;
-    self.window.rootViewController = loginViewController;
+    self.window.rootViewController = [assembly createLoginViewController];
     return YES;
 }
 
