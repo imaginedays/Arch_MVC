@@ -19,6 +19,15 @@
 		76235B372199917300F77104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B362199917300F77104 /* main.m */; };
 		767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 767E5F3B219C29F800AD22DC /* RWViewModel.m */; };
 		767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767E5F3F219C2BB300AD22DC /* RWViewController.m */; };
+		76ABA7F6219E66E10063A43E /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA7F5219E66E10063A43E /* LoginViewModel.m */; };
+		76ABA7FA219E67100063A43E /* RWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA7F9219E67100063A43E /* RWModel.m */; };
+		76ABA7FD219E67280063A43E /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA7FC219E67280063A43E /* LoginModel.m */; };
+		76ABA825219EC8130063A43E /* LoginAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA824219EC8130063A43E /* LoginAssembly.m */; };
+		76ABA82E219EC93C0063A43E /* CavalryMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA828219EC93B0063A43E /* CavalryMan.m */; };
+		76ABA82F219EC93C0063A43E /* CampaignQuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA82A219EC93B0063A43E /* CampaignQuest.m */; };
+		76ABA830219EC93C0063A43E /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA82D219EC93C0063A43E /* Knight.m */; };
+		76ABA833219EC94B0063A43E /* MiddleAgesAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA832219EC94A0063A43E /* MiddleAgesAssembly.m */; };
+		76ABA837219ECDC60063A43E /* AppDelegateAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA836219ECDC60063A43E /* AppDelegateAssembly.m */; };
 		D112E6686F74CCD90E48B070 /* libPods-Arch_MVVM_RAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 701867489970B239F24615EE /* libPods-Arch_MVVM_RAC.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +55,27 @@
 		767E5F3B219C29F800AD22DC /* RWViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewModel.m; sourceTree = "<group>"; };
 		767E5F3E219C2BB300AD22DC /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
 		767E5F3F219C2BB300AD22DC /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
+		76ABA7F4219E66E10063A43E /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		76ABA7F5219E66E10063A43E /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		76ABA7F8219E67100063A43E /* RWModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWModel.h; sourceTree = "<group>"; };
+		76ABA7F9219E67100063A43E /* RWModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWModel.m; sourceTree = "<group>"; };
+		76ABA7FB219E67280063A43E /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		76ABA7FC219E67280063A43E /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		76ABA80D219EA3E50063A43E /* RWNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWNavigationProtocol.h; sourceTree = "<group>"; };
+		76ABA80E219EA7200063A43E /* RWRepositoryServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWRepositoryServiceProtocol.h; sourceTree = "<group>"; };
+		76ABA823219EC8130063A43E /* LoginAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAssembly.h; sourceTree = "<group>"; };
+		76ABA824219EC8130063A43E /* LoginAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAssembly.m; sourceTree = "<group>"; };
+		76ABA827219EC93B0063A43E /* CampaignQuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignQuest.h; sourceTree = "<group>"; };
+		76ABA828219EC93B0063A43E /* CavalryMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CavalryMan.m; sourceTree = "<group>"; };
+		76ABA829219EC93B0063A43E /* Knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		76ABA82A219EC93B0063A43E /* CampaignQuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignQuest.m; sourceTree = "<group>"; };
+		76ABA82B219EC93B0063A43E /* Quest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quest.h; sourceTree = "<group>"; };
+		76ABA82C219EC93B0063A43E /* CavalryMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CavalryMan.h; sourceTree = "<group>"; };
+		76ABA82D219EC93C0063A43E /* Knight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knight.m; sourceTree = "<group>"; };
+		76ABA831219EC94A0063A43E /* MiddleAgesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleAgesAssembly.h; sourceTree = "<group>"; };
+		76ABA832219EC94A0063A43E /* MiddleAgesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleAgesAssembly.m; sourceTree = "<group>"; };
+		76ABA835219ECDC60063A43E /* AppDelegateAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateAssembly.h; sourceTree = "<group>"; };
+		76ABA836219ECDC60063A43E /* AppDelegateAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateAssembly.m; sourceTree = "<group>"; };
 		B0DD7126738E903FC85F170A /* Pods-Arch_MVVM_RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arch_MVVM_RAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arch_MVVM_RAC/Pods-Arch_MVVM_RAC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,9 +102,9 @@
 		7600E508219D26AB0056355C /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7600E509219D26CE0056355C /* LoginViewController.h */,
-				7600E50A219D26CE0056355C /* LoginViewController.m */,
-				7600E50B219D26CE0056355C /* LoginViewController.xib */,
+				76ABA7F3219E66C10063A43E /* View */,
+				76ABA7F2219E66BA0063A43E /* ViewModel */,
+				76ABA7F1219E66AC0063A43E /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -84,6 +114,8 @@
 			children = (
 				7600E50F219D4D890056355C /* RWNavigationController.h */,
 				7600E510219D4D890056355C /* RWNavigationController.m */,
+				76ABA80D219EA3E50063A43E /* RWNavigationProtocol.h */,
+				76ABA80E219EA7200063A43E /* RWRepositoryServiceProtocol.h */,
 			);
 			path = BaseUIKitWrapper;
 			sourceTree = "<group>";
@@ -109,6 +141,7 @@
 		76235B232199917100F77104 /* Arch_MVVM_RAC */ = {
 			isa = PBXGroup;
 			children = (
+				76ABA821219EC7CA0063A43E /* Assembly */,
 				7600E507219D267A0056355C /* Business */,
 				767E5F33219C23B800AD22DC /* MVVM_RAC_CORE */,
 				76235B242199917100F77104 /* AppDelegate.h */,
@@ -130,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				7600E50E219D4D240056355C /* BaseUIKitWrapper */,
+				76ABA7F7219E66F50063A43E /* Model */,
 				767E5F3D219C2B8F00AD22DC /* ViewController */,
 				767E5F39219C29CF00AD22DC /* ViewModel */,
 			);
@@ -152,6 +186,87 @@
 				767E5F3F219C2BB300AD22DC /* RWViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		76ABA7F1219E66AC0063A43E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA7FB219E67280063A43E /* LoginModel.h */,
+				76ABA7FC219E67280063A43E /* LoginModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76ABA7F2219E66BA0063A43E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA7F4219E66E10063A43E /* LoginViewModel.h */,
+				76ABA7F5219E66E10063A43E /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		76ABA7F3219E66C10063A43E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7600E509219D26CE0056355C /* LoginViewController.h */,
+				7600E50A219D26CE0056355C /* LoginViewController.m */,
+				7600E50B219D26CE0056355C /* LoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76ABA7F7219E66F50063A43E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA7F8219E67100063A43E /* RWModel.h */,
+				76ABA7F9219E67100063A43E /* RWModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76ABA821219EC7CA0063A43E /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA834219ECD910063A43E /* AppDelegateAssembly */,
+				76ABA826219EC9120063A43E /* Example */,
+				76ABA822219EC7F50063A43E /* LoginAssembly */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		76ABA822219EC7F50063A43E /* LoginAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA823219EC8130063A43E /* LoginAssembly.h */,
+				76ABA824219EC8130063A43E /* LoginAssembly.m */,
+			);
+			path = LoginAssembly;
+			sourceTree = "<group>";
+		};
+		76ABA826219EC9120063A43E /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA827219EC93B0063A43E /* CampaignQuest.h */,
+				76ABA82A219EC93B0063A43E /* CampaignQuest.m */,
+				76ABA82C219EC93B0063A43E /* CavalryMan.h */,
+				76ABA828219EC93B0063A43E /* CavalryMan.m */,
+				76ABA829219EC93B0063A43E /* Knight.h */,
+				76ABA82D219EC93C0063A43E /* Knight.m */,
+				76ABA82B219EC93B0063A43E /* Quest.h */,
+				76ABA831219EC94A0063A43E /* MiddleAgesAssembly.h */,
+				76ABA832219EC94A0063A43E /* MiddleAgesAssembly.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		76ABA834219ECD910063A43E /* AppDelegateAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				76ABA835219ECDC60063A43E /* AppDelegateAssembly.h */,
+				76ABA836219ECDC60063A43E /* AppDelegateAssembly.m */,
+			);
+			path = AppDelegateAssembly;
 			sourceTree = "<group>";
 		};
 		A817AED8FA90B32E596077F3 /* Pods */ = {
@@ -267,11 +382,20 @@
 				7600E511219D4D890056355C /* RWNavigationController.m in Sources */,
 				767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */,
 				767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */,
+				76ABA7FD219E67280063A43E /* LoginModel.m in Sources */,
+				76ABA82E219EC93C0063A43E /* CavalryMan.m in Sources */,
 				76235B2C2199917100F77104 /* SecondViewController.m in Sources */,
+				76ABA82F219EC93C0063A43E /* CampaignQuest.m in Sources */,
 				76235B262199917100F77104 /* AppDelegate.m in Sources */,
+				76ABA830219EC93C0063A43E /* Knight.m in Sources */,
 				7600E50C219D26CE0056355C /* LoginViewController.m in Sources */,
+				76ABA825219EC8130063A43E /* LoginAssembly.m in Sources */,
+				76ABA7FA219E67100063A43E /* RWModel.m in Sources */,
+				76ABA837219ECDC60063A43E /* AppDelegateAssembly.m in Sources */,
 				76235B372199917300F77104 /* main.m in Sources */,
 				76235B292199917100F77104 /* FirstViewController.m in Sources */,
+				76ABA833219EC94B0063A43E /* MiddleAgesAssembly.m in Sources */,
+				76ABA7F6219E66E10063A43E /* LoginViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

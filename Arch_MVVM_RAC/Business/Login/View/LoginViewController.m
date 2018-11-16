@@ -8,6 +8,10 @@
 
 #import "LoginViewController.h"
 
+#import "LoginViewModel.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+#import "MiddleAgesAssembly.h"
+
 @interface LoginViewController ()
 
 @end
@@ -17,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    RAC(self.viewModel,username) = self.username.rac_textSignal;
+    RAC(self.viewModel,pwd) = self.pwd.rac_textSignal;
 }
 
 /*

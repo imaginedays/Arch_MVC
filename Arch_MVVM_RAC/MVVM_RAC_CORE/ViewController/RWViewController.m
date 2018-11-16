@@ -7,12 +7,44 @@
 //
 
 #import "RWViewController.h"
+#import "RWViewModel.h"
+#import <ReactiveObjC.h>
 
 @interface RWViewController ()
-
+@property (nonatomic, strong, readwrite) RWViewModel *viewModel;
 @end
 
 @implementation RWViewController
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    RWViewController *viewController = [super allocWithZone:zone];
+    
+    @weakify(viewController)
+    [[viewController
+      rac_signalForSelector:@selector(viewDidLoad)]
+     subscribeNext:^(id x) {
+         @strongify(viewController)
+         [viewController bindViewModel];
+     }];
+    
+    return viewController;
+}
+
+- (RWViewController *)initWithViewModel:(id)viewModel {
+    self = [super init];
+    if (self) {
+        self.viewModel = viewModel;
+    }
+    return self;
+}
+
+
+/**
+ viewmodel to model
+ */
+- (void)bindViewModel {
+    NSLog(@"RWViewController bindViewModel");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
