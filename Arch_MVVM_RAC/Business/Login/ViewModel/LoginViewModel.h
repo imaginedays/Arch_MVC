@@ -15,7 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) LoginModel *model;    //!< 属性名称
 @property (nonatomic, copy) NSString *username;    //!< 属性名称
 @property (nonatomic, copy) NSString *pwd;    //!< 属性名称
-- (void)setLoginUserName:(NSString *)username andPwd:(NSString *)pwd;
+@property (nonatomic, copy) NSArray *requestData;
+- (void)login;
+- (id)loginParameterIsValid;
 @end
 
 NS_ASSUME_NONNULL_END

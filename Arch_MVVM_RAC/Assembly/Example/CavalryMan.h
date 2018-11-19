@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CavalryMan : NSObject
 @property (nonatomic, assign) id<Quest> quest;    //!< 属性名称
 @property (nonatomic, assign) NSInteger damselsRescued;    //!< 属性名称
+@property (nonatomic, copy) NSArray *favoriteDamsels;    //!< 属性名称
 @end
 
 NS_ASSUME_NONNULL_END

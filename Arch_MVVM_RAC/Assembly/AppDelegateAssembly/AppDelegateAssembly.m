@@ -19,7 +19,7 @@
             [initializer injectParameterWith:@"LoginViewController"];
             [initializer injectParameterWith:nil];
         }];
-        [definition injectProperty:@selector(viewModel) with:[self createLoginViewController]];
+        [definition injectProperty:@selector(viewModel) with:[self createLoginViewModel]];
     }];
 }
 

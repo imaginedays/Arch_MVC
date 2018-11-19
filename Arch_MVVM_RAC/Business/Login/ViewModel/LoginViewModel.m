@@ -8,19 +8,23 @@
 
 #import "LoginViewModel.h"
 #import <ReactiveObjC/ReactiveObjC.h>
-@interface LoginViewModel()
-@property (nonatomic, assign) BOOL loginEnabled;    //!< 属性名称
 
-@end
 @implementation LoginViewModel
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        _model = [[LoginModel alloc]init];
-        RAC(self,loginEnabled) = [RACSignal combineLatest:@[RACObserve(self.model,username), RACObserve(self.model,pwd)] reduce:^(NSString *username, NSString *pwd){
-            return @(username.length > 0 && pwd.length > 0);
-        }];
-    }
-    return self;
+
+- (void)login {
+    //模拟登录
+    NSLog(@"login username =  %@ pwd = %@",self.username,self.pwd);
+    _requestData = @[self.username,self.pwd];
+    [self.successObject sendNext:_requestData];
+    [self.failureObject sendNext:@"failure"];
+    [self.errorObject sendNext:@"error"];
+    
 }
+
+- (id)loginParameterIsValid {
+    return [RACSignal combineLatest:@[RACObserve(self, username),RACObserve(self, pwd)] reduce:^(NSString *username, NSString *pwd){
+        return @(username.length >= 3 && pwd.length >= 3);
+    }];
+}
+
 @end

@@ -18,7 +18,7 @@
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
     RWViewController *viewController = [super allocWithZone:zone];
-    
+    //TODO 改变这个写法
     @weakify(viewController)
     [[viewController
       rac_signalForSelector:@selector(viewDidLoad)]

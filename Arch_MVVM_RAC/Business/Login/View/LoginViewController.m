@@ -20,9 +20,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+//    MiddleAgesAssembly *assembly = [[MiddleAgesAssembly new] activated];
+//    Knight *knight = [assembly performBeforeInjections];
+//    NSLog(@"knight");
+}
+
+- (void)bindViewModel {
+    
+    //关联值变化
     RAC(self.viewModel,username) = self.username.rac_textSignal;
     RAC(self.viewModel,pwd) = self.pwd.rac_textSignal;
+    RAC(self.loginBtn,enabled) = [self.viewModel loginParameterIsValid];
+    
+    @weakify(self);
+    //关联事件
+    [[self.loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        @strongify(self);
+        [self.viewModel login];
+    }];
+    
+    //关联网络处理结果
+    /*
+     1.成功
+     */
+    [self.viewModel.successObject subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
+    
+    /*
+     2.失败
+     */
+    [self.viewModel.failureObject subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
+    
+    /*
+     3.错误
+     */
+    [self.viewModel.errorObject subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
 }
 
 /*
@@ -35,4 +72,8 @@
 }
 */
 
+- (IBAction)loginBtnAction:(id)sender {
+    
+    NSLog(@"loginBtnAction");
+}
 @end

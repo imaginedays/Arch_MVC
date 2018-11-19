@@ -37,21 +37,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eN7-Zm-N0i">
-                                <rect key="frame" x="161" y="565" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="gogogo"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eN7-Zm-N0i">
+                                <rect key="frame" x="172" y="558" width="31" height="30"/>
+                                <state key="normal" title="登录"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="2HZ-Fx-P7h" secondAttribute="trailing" constant="20" id="RHu-VM-Sn4"/>
+                            <constraint firstItem="eN7-Zm-N0i" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="VQW-8e-qwZ"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="2HZ-Fx-P7h" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="co1-bc-QOA"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                             <constraint firstItem="2HZ-Fx-P7h" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="20" id="iVk-zu-GZ0"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="eN7-Zm-N0i" secondAttribute="bottom" constant="30" id="mFC-bM-New"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
