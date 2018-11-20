@@ -17,6 +17,16 @@
 		76235B312199917300F77104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76235B302199917300F77104 /* Assets.xcassets */; };
 		76235B342199917300F77104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76235B322199917300F77104 /* LaunchScreen.storyboard */; };
 		76235B372199917300F77104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76235B362199917300F77104 /* main.m */; };
+		7667EDD721A3A07C00F64FE0 /* RWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667EDD621A3A07C00F64FE0 /* RWTabBarController.m */; };
+		7667EDDA21A3A38B00F64FE0 /* RWContainerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667EDD921A3A38B00F64FE0 /* RWContainerNavigationController.m */; };
+		7667EDE221A3A49B00F64FE0 /* RWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667EDE021A3A49B00F64FE0 /* RWHomeViewController.m */; };
+		7667EDE321A3A49B00F64FE0 /* RWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7667EDE121A3A49B00F64FE0 /* RWHomeViewController.xib */; };
+		7667EDE721A3A4B400F64FE0 /* RWFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667EDE521A3A4B400F64FE0 /* RWFindViewController.m */; };
+		7667EDE821A3A4B400F64FE0 /* RWFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7667EDE621A3A4B400F64FE0 /* RWFindViewController.xib */; };
+		7667EDEC21A3A4C900F64FE0 /* RWActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667EDEA21A3A4C900F64FE0 /* RWActivityViewController.m */; };
+		7667EDED21A3A4C900F64FE0 /* RWActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7667EDEB21A3A4C900F64FE0 /* RWActivityViewController.xib */; };
+		7667EDF221A3A4E200F64FE0 /* RWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667EDF021A3A4E200F64FE0 /* RWMineViewController.m */; };
+		7667EDF321A3A4E200F64FE0 /* RWMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7667EDF121A3A4E200F64FE0 /* RWMineViewController.xib */; };
 		767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 767E5F3B219C29F800AD22DC /* RWViewModel.m */; };
 		767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767E5F3F219C2BB300AD22DC /* RWViewController.m */; };
 		76ABA7F6219E66E10063A43E /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ABA7F5219E66E10063A43E /* LoginViewModel.m */; };
@@ -51,6 +61,22 @@
 		76235B332199917300F77104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76235B352199917300F77104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76235B362199917300F77104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7667EDD521A3A07C00F64FE0 /* RWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTabBarController.h; sourceTree = "<group>"; };
+		7667EDD621A3A07C00F64FE0 /* RWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTabBarController.m; sourceTree = "<group>"; };
+		7667EDD821A3A38B00F64FE0 /* RWContainerNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWContainerNavigationController.h; sourceTree = "<group>"; };
+		7667EDD921A3A38B00F64FE0 /* RWContainerNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWContainerNavigationController.m; sourceTree = "<group>"; };
+		7667EDDF21A3A49B00F64FE0 /* RWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWHomeViewController.h; sourceTree = "<group>"; };
+		7667EDE021A3A49B00F64FE0 /* RWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWHomeViewController.m; sourceTree = "<group>"; };
+		7667EDE121A3A49B00F64FE0 /* RWHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWHomeViewController.xib; sourceTree = "<group>"; };
+		7667EDE421A3A4B400F64FE0 /* RWFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWFindViewController.h; sourceTree = "<group>"; };
+		7667EDE521A3A4B400F64FE0 /* RWFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWFindViewController.m; sourceTree = "<group>"; };
+		7667EDE621A3A4B400F64FE0 /* RWFindViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWFindViewController.xib; sourceTree = "<group>"; };
+		7667EDE921A3A4C900F64FE0 /* RWActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWActivityViewController.h; sourceTree = "<group>"; };
+		7667EDEA21A3A4C900F64FE0 /* RWActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWActivityViewController.m; sourceTree = "<group>"; };
+		7667EDEB21A3A4C900F64FE0 /* RWActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWActivityViewController.xib; sourceTree = "<group>"; };
+		7667EDEF21A3A4E200F64FE0 /* RWMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWMineViewController.h; sourceTree = "<group>"; };
+		7667EDF021A3A4E200F64FE0 /* RWMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWMineViewController.m; sourceTree = "<group>"; };
+		7667EDF121A3A4E200F64FE0 /* RWMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWMineViewController.xib; sourceTree = "<group>"; };
 		767E5F3A219C29F800AD22DC /* RWViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewModel.h; sourceTree = "<group>"; };
 		767E5F3B219C29F800AD22DC /* RWViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewModel.m; sourceTree = "<group>"; };
 		767E5F3E219C2BB300AD22DC /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
@@ -94,6 +120,10 @@
 		7600E507219D267A0056355C /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				7667EDDE21A3A43600F64FE0 /* TAB_Mine */,
+				7667EDDD21A3A42200F64FE0 /* TAB_Activity */,
+				7667EDDC21A3A41800F64FE0 /* TAB_Find */,
+				7667EDDB21A3A40E00F64FE0 /* TAB_Home */,
 				7600E508219D26AB0056355C /* Login */,
 			);
 			path = Business;
@@ -116,6 +146,10 @@
 				7600E510219D4D890056355C /* RWNavigationController.m */,
 				76ABA80D219EA3E50063A43E /* RWNavigationProtocol.h */,
 				76ABA80E219EA7200063A43E /* RWRepositoryServiceProtocol.h */,
+				7667EDD521A3A07C00F64FE0 /* RWTabBarController.h */,
+				7667EDD621A3A07C00F64FE0 /* RWTabBarController.m */,
+				7667EDD821A3A38B00F64FE0 /* RWContainerNavigationController.h */,
+				7667EDD921A3A38B00F64FE0 /* RWContainerNavigationController.m */,
 			);
 			path = BaseUIKitWrapper;
 			sourceTree = "<group>";
@@ -157,6 +191,46 @@
 				76235B362199917300F77104 /* main.m */,
 			);
 			path = Arch_MVVM_RAC;
+			sourceTree = "<group>";
+		};
+		7667EDDB21A3A40E00F64FE0 /* TAB_Home */ = {
+			isa = PBXGroup;
+			children = (
+				7667EDDF21A3A49B00F64FE0 /* RWHomeViewController.h */,
+				7667EDE021A3A49B00F64FE0 /* RWHomeViewController.m */,
+				7667EDE121A3A49B00F64FE0 /* RWHomeViewController.xib */,
+			);
+			path = TAB_Home;
+			sourceTree = "<group>";
+		};
+		7667EDDC21A3A41800F64FE0 /* TAB_Find */ = {
+			isa = PBXGroup;
+			children = (
+				7667EDE421A3A4B400F64FE0 /* RWFindViewController.h */,
+				7667EDE521A3A4B400F64FE0 /* RWFindViewController.m */,
+				7667EDE621A3A4B400F64FE0 /* RWFindViewController.xib */,
+			);
+			path = TAB_Find;
+			sourceTree = "<group>";
+		};
+		7667EDDD21A3A42200F64FE0 /* TAB_Activity */ = {
+			isa = PBXGroup;
+			children = (
+				7667EDE921A3A4C900F64FE0 /* RWActivityViewController.h */,
+				7667EDEA21A3A4C900F64FE0 /* RWActivityViewController.m */,
+				7667EDEB21A3A4C900F64FE0 /* RWActivityViewController.xib */,
+			);
+			path = TAB_Activity;
+			sourceTree = "<group>";
+		};
+		7667EDDE21A3A43600F64FE0 /* TAB_Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7667EDEF21A3A4E200F64FE0 /* RWMineViewController.h */,
+				7667EDF021A3A4E200F64FE0 /* RWMineViewController.m */,
+				7667EDF121A3A4E200F64FE0 /* RWMineViewController.xib */,
+			);
+			path = TAB_Mine;
 			sourceTree = "<group>";
 		};
 		767E5F33219C23B800AD22DC /* MVVM_RAC_CORE */ = {
@@ -346,7 +420,11 @@
 			files = (
 				7600E50D219D26CE0056355C /* LoginViewController.xib in Resources */,
 				76235B342199917300F77104 /* LaunchScreen.storyboard in Resources */,
+				7667EDF321A3A4E200F64FE0 /* RWMineViewController.xib in Resources */,
+				7667EDED21A3A4C900F64FE0 /* RWActivityViewController.xib in Resources */,
+				7667EDE821A3A4B400F64FE0 /* RWFindViewController.xib in Resources */,
 				76235B312199917300F77104 /* Assets.xcassets in Resources */,
+				7667EDE321A3A49B00F64FE0 /* RWHomeViewController.xib in Resources */,
 				76235B2F2199917100F77104 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,17 +459,23 @@
 			files = (
 				7600E511219D4D890056355C /* RWNavigationController.m in Sources */,
 				767E5F3C219C29F800AD22DC /* RWViewModel.m in Sources */,
+				7667EDEC21A3A4C900F64FE0 /* RWActivityViewController.m in Sources */,
 				767E5F40219C2BB300AD22DC /* RWViewController.m in Sources */,
+				7667EDF221A3A4E200F64FE0 /* RWMineViewController.m in Sources */,
 				76ABA7FD219E67280063A43E /* LoginModel.m in Sources */,
 				76ABA82E219EC93C0063A43E /* CavalryMan.m in Sources */,
 				76235B2C2199917100F77104 /* SecondViewController.m in Sources */,
 				76ABA82F219EC93C0063A43E /* CampaignQuest.m in Sources */,
 				76235B262199917100F77104 /* AppDelegate.m in Sources */,
+				7667EDD721A3A07C00F64FE0 /* RWTabBarController.m in Sources */,
 				76ABA830219EC93C0063A43E /* Knight.m in Sources */,
+				7667EDE221A3A49B00F64FE0 /* RWHomeViewController.m in Sources */,
+				7667EDDA21A3A38B00F64FE0 /* RWContainerNavigationController.m in Sources */,
 				7600E50C219D26CE0056355C /* LoginViewController.m in Sources */,
 				76ABA825219EC8130063A43E /* LoginAssembly.m in Sources */,
 				76ABA7FA219E67100063A43E /* RWModel.m in Sources */,
 				76ABA837219ECDC60063A43E /* AppDelegateAssembly.m in Sources */,
+				7667EDE721A3A4B400F64FE0 /* RWFindViewController.m in Sources */,
 				76235B372199917300F77104 /* main.m in Sources */,
 				76235B292199917100F77104 /* FirstViewController.m in Sources */,
 				76ABA833219EC94B0063A43E /* MiddleAgesAssembly.m in Sources */,

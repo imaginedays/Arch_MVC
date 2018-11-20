@@ -9,5 +9,6 @@ target 'Arch_MVVM_RAC' do
   pod 'ReactiveObjC'
   pod 'AFNetworking'
   pod 'Typhoon'
+  pod 'RTRootNavigationController'
 
 end

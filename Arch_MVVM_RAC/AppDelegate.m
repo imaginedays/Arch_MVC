@@ -10,18 +10,28 @@
 #import "LoginViewController.h"
 #import "LoginViewModel.h"
 #import "AppDelegateAssembly.h"
+#import "RWTabBarController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) RWTabBarController *tabBarController;    //!< 属性名称
+@property (nonatomic, strong) UINavigationController *rootNavigationController;    //!< 属性名称
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    AppDelegateAssembly *assembly = [[AppDelegateAssembly new]activated];
-    self.window.rootViewController = [assembly createLoginViewController];
+//    AppDelegateAssembly *assembly = [[AppDelegateAssembly new]activated];
+//    self.window.rootViewController = [assembly createLoginViewController];
+    [self rw_initKeyWindow];
     return YES;
+}
+
+- (void)rw_initKeyWindow {
+    self.tabBarController = [[RWTabBarController alloc] init];
+    self.rootNavigationController = [[UINavigationController alloc] initWithRootViewController:self.tabBarController];
+    self.window.rootViewController = self.rootNavigationController;
+    [self.window makeKeyAndVisible];
 }
 
 

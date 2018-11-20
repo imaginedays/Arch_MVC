@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) RWViewModel *viewModel;
 - (instancetype)initWithViewModel:(RWViewModel *)viewModel;
 - (void)bindViewModel;
-
+- (void)refreshViewByTabBarController;    //用于TabBarController 刷新View
 @end
 
 NS_ASSUME_NONNULL_END
